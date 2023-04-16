@@ -1,0 +1,31 @@
+{
+  "name": "huddle01-iframe-example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "@huddle01/huddle01-iframe": "^0.0.8",
+    "@superfluid-finance/sdk-core": "^0.6.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-bootstrap":"2.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
